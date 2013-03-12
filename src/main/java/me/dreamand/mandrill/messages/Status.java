@@ -4,11 +4,14 @@
  */
 package me.dreamand.mandrill.messages;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
 /**
  * 
  * @since 1.0.0
  * @author Pau Kiat Wee (mailto:paukiatwee@gmail.com)
  */
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Status {
     
     private String email;

@@ -1,2 +1,2 @@
-A Java Mandrill Client
-======================
+WARNING: NO LONGER RECOMMEND MANDRILL
+=====================================
